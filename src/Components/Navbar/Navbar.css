@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    position: absolute;
+}
+.logo{
+    width:180px;
+    margin:3px 5rem;
+    cursor: pointer;
+}
+.buttonbtn {
+    margin: -20px 90px 0px;
+}
+.btn-lan{
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #777;
+    padding: 6px 20px;
+    background-color: rgb(16, 16, 16);
+    color: #fff;
+    font-size: 16px;
+}
+.btn-signin{
+    border:0;
+    color:white;
+    background: rgb(229, 9, 20);
+    border-radius:4px;
+    padding:7px 20px;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    transition: .3s ease-in
+}
+.btn-signin a{
+    text-decoration: none;
+    color:#fff;
+    padding:10px;
+    font-size: 16px;
+}
+.btn-signin:hover{
+    background: rgb(229, 9, 0,0.6);
+}

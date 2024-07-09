@@ -1,0 +1,60 @@
+.faq{
+    color:#fff;
+    font-size:10px;
+    padding:10px 100px;
+    margin-top:25px;
+}
+
+.faq h2{
+    font-weight:700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.accordion {
+    margin-left:1rem;
+}
+.accordion li {
+    list-style: none;
+    width:100%;
+    margin-bottom: 5px;
+
+}
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 24px;
+    background-color: #222;
+    cursor: pointer;
+    position: relative;
+    transition: all .5s;
+    
+}
+.accordion li label:hover {
+    background-color: #444;
+}
+.content{
+    background-color: #222;
+    font-size: 26px;
+    padding:20px;
+    transition: 1s;
+    display: none;
+}
+label::after{
+    content:'+';
+    font-size: 32px;
+    position: absolute;
+    right:20px;
+    transition: transform 0.5s;
+}
+input[type=checkbox]{
+    display: none;
+}
+.accordion input[type=checkbox]:checked + label + .content {
+    display: block;
+}
+
+.accordion input[type=checkbox]:checked + label::after {
+    transform: rotate(135deg);
+}

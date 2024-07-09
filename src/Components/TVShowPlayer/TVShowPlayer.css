@@ -1,0 +1,23 @@
+.TVShowPlayer{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TVShowPlayer img{
+    position: absolute;
+    top:20px;
+    left:20px;
+    width:50px;
+    cursor: pointer;
+}
+.TVShowPlayer iframe{
+    border-radius: 10px;
+}
+.TVShowPlayer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}

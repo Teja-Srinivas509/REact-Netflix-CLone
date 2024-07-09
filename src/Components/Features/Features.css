@@ -1,0 +1,33 @@
+.features{
+    color: #fff;
+    font-size: 1.2rem;
+    padding:50px 220px;
+}
+.page{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-text{
+    font-size:1.7rem;
+    font-weight: 600;
+}
+.page-text h2{
+    margin-bottom:20px;
+}
+.page-text p{
+    font-size: 1.2rem;
+    word-spacing: 2px;
+}
+.page-img{
+    margin:0px 15px;
+}
+#vid{
+   object-fit: contain;
+   position: absolute;
+   top: 1981px;
+   left: 750px;
+   width: 400px;
+   z-index:-1;
+}

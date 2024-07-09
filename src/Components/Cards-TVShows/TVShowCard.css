@@ -1,0 +1,30 @@
+.TVShowCard{
+    margin-top: 50px;
+    margin-bottom: 30px; 
+}
+.TVShowCard h2{
+    margin-bottom: 2px;
+}
+.TVcards-list{
+    display: flex;
+    gap:10px;
+    overflow-x: auto;
+}
+.TVcards-list::-webkit-scrollbar{
+    display: none;
+}
+.TvCard{
+    position: relative;
+}
+.Tvcard-img{
+    width: 280px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Tvcard-title{
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    text-decoration: none;
+    color: white;
+}
